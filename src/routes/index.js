@@ -9,7 +9,7 @@ import { history } from '../store';
 
 export default () => (
   <Router history={history}>
-    <Route path="/" component={App}>
+    <Route path="/" >
       <IndexRoute component={Home} />
     </Route>
   </Router>
